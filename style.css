@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Navbar section*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+
+/*Home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+
+.headings{
+    font-family: century;
+    font-size: 45px;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 35px;
+    margin: 15px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white;
+    font-weight: bold;
+}
+
+/*About section*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#my-skills{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tech-skills, .soft-skills{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+.tech-skills{
+    text-align: right;
+}
+.soft-skills{
+    text-align: right;
+}
+
+#my-skills h1{
+    margin: 10px 0;  
+}
+
+#my-skills p{
+    line-height: 35px;
+}
+
+
+/*Portfolio section*/
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#message{
+    width: 30%;
+    padding: 12px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 20px;
+    border: none;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+#copyrights{
+    color: black;
+    text-align: center;
+}
+
+.site, .code{
+        padding: 10px 35px;
+        margin: 15px 15px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        outline: none;
+        transition: .6s ease;
+}
+.code:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white;
+        font-weight: bold;
+    }
+.site:hover{
+    cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white;
+        font-weight: bold;
+}
+
+.proj p{
+    margin-left: 10px;
+}
+
+.socials{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.socials ion-icon{
+    font-size: 40px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nonhle W Miya</title>
+</head>
+<body>
+    <!-- Navbar section-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about">Skills</a></li>
+            <li><a href="#portfolio" >Projects</a></li>
+            <li><a href="#contact" >Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">
+                Hi, I am <br> Nonhle W Miya
+            </h1>
+            <button class="btn">Hire Me</button>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+            <h1 class="headings">My Skills</h1>
+        <div id="my-skills">
+        <div class="tech-skils">
+            <h1>Technical Skills</h1>
+            <p>HTML </p>
+            <p>CSS </p>
+            <p>Wordpress</p>
+            <p>Javascript</p>
+            <p>Python</p>
+        </div>
+        <div class="soft-skills">
+           <h1>Soft Skills</h1>
+           <p>Problem Solving</p>
+           <p>Critical thinking</p>
+           <p>Adaptability</p>
+           <p>Team Work</p>
+           <p>Communication</p>
+        </div></div>
+    </section>
+
+    <!--Portfolio Section-->
+    <section id="portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div class="gallery">
+            <div class="proj">
+           <img src="images/proj1.png" alt="Developer website">
+                <p>This web developers site was developed by using wordpress</p>
+                <button class="code" onclick="window.location.href='https://www.misedevelopers.co.za'">View website</button>
+            </div>
+            <div class="proj">
+                <img src="images/proj2.png" alt="A salon websitetemplate">
+                    <p>This is a salon website template, designed and developed by<br> me using HTML and CSS</p>
+                    <button class="site" onclick="window.location.href='https://nonhlemiya.github.io/MySalon/'">View website</button>
+                    <button class="code" onclick="window.location.href='https://github.com/NonhleMiya/MySalon'">View Code</button>
+                </div>
+                <div class="proj">
+                    <img src="images/proj3.png" alt="My portfolio website">
+                        <p>This is my portfolio website, designed and developed by<br> me using HTML and CSS</p>
+                        <button class="site" onclick="window.location.href='#'">View website</button>
+                        <button class="code" onclick="window.location.href='#'">View Code</button>
+                    </div>
+                    <div class="proj">
+                       <img src="images/proj4.png" alt="A cocktail bar websitetemplate">
+                            <p>This a cocktail bar online store, designed and developed by<br> me using HTML, CSS and JavaScript<br>Status: Under Development</p>
+                            <button class="site" onclick="window.location.href='https://nonhlemiya.github.io/DrinksOnlineStore/'">View website</button>
+                            <button class="code" onclick="window.location.href='https://github.com/NonhleMiya/DrinksOnlineStore/'">View Code</button>
+                            
+                        </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="https://formsubmit.co/nonhlew.miya@gmail.com" method="post" enctype="multipart/form-data" name="contactform" class="contact-form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+        <div class="socials">
+            <a href="https://linkedin.com/in/nonhle-wendy-miya-074b78191"><ion-icon name="logo-linkedin" href=""></ion-icon></a>
+            <a href="https://github.com/NonhleMiya"><ion-icon name="logo-github" ></ion-icon></a>
+             <a href="https://www.instagram.com/nonhlemiya_/"><ion-icon name="logo-instagram"></ion-icon></a>
+         </div>
+    </section>
+    <p id="copyrights">Copyright 2021 - Nonhle Miya</p>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
