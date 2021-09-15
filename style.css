@@ -112,7 +112,7 @@
 }
 
 .tech-skills{
-    text-align: right;
+    text-align: left;
 }
 .soft-skills{
     text-align: right;
@@ -240,4 +240,41 @@
 
 .socials ion-icon{
     font-size: 40px;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 770px){
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input{
+        width: 60%;
+    }
+    #message{
+        width: 60%;
+    }
+    #send{
+        width: 20%
+    }
+    .tech-skills{
+        text-align: center;
+    }
+    .soft-skills{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px){
+    #home{
+        height: 440px;
+    }
+    .gallery img{
+        width: 275px;
+        height: 150px;
+        margin: 10px;
+    }
+    .site, .code{
+        padding: 5px 25px;
+        margin: 8px 8px;}
 }
