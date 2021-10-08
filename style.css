@@ -37,7 +37,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    height: 495px;
+    height: 520px;
     justify-content: center;
     align-items: center;
     color: black;
