@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
 }
+
+
 /*Navbar section*/
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
 }
@@ -35,8 +37,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.5);
-    height: 460px;
+    height: 465px;
     justify-content: center;
     align-items: center;
     color: black;
@@ -47,10 +48,10 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url(images/home.jpg);
+    background: url(images/home2.jpg);
     background-position: center;
     background-size: cover;
-    height: 520px;
+    height: 630px;
     width: 100%;
     z-index: -1;
     opacity: .8;
@@ -93,8 +94,9 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
+    padding-top: 50px;
     margin-bottom: 50px;
+    background: #FAF6F2;
 }
 
 #my-skills{
@@ -105,6 +107,12 @@
     flex-wrap: wrap;
 }
 
+.ame{
+    padding-bottom: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
+
 .tech-skills, .soft-skills{
     flex-basis: 45%;
     padding: 10px;
@@ -112,10 +120,10 @@
 }
 
 .tech-skills{
-    text-align: left;
+    text-align: center;
 }
 .soft-skills{
-    text-align: right;
+    text-align: center;
 }
 
 #my-skills h1{
@@ -131,11 +139,12 @@
 #portfolio{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.4);
-    color: white;
+    background-color: #EFD4CB;
+    color: #2B3034;
     align-items: center;
     padding: 20px;
 }
+
 
 .gallery{
     display: flex;
@@ -168,7 +177,7 @@
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #FAF6F2;
 }
 
 .input{
@@ -200,10 +209,6 @@
     box-shadow: 0 0 10px white;
 }
 
-#copyrights{
-    color: black;
-    text-align: center;
-}
 
 .site, .code{
         padding: 10px 35px;
@@ -240,6 +245,10 @@
 
 .socials ion-icon{
     font-size: 40px;
+}
+
+#details{
+    text-align: center;
 }
 
 /*Responsiveness*/
