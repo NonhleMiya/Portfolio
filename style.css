@@ -169,6 +169,7 @@
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
+    background-color: #FAF6F2;
 }
 
 .contact-form{
@@ -177,7 +178,6 @@
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
-    background-color: #FAF6F2;
 }
 
 .input{
